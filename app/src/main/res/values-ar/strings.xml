@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">القارءئ الذكي</string>
+    <string name="btnLogin">تسجيل الدخول</string>
+    <string name="btnLogout">تسجيل الخروج</string>
+    <string name="hintName">الاسم</string>
+    <string name="hintPassword">كلمة السر</string>
+    <string name="hintForgetPassword">نسيت كلمت السر</string>
+    <string name="btnNext">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="btnSave">حفظ</string>
+    <string name="btnCancel">الغاء</string>
+
+    <string name="hello_blank_fragment">hi</string>
+    <string name="meterNo">رقم العداد</string>
+    <string name="getmeterNo"> اخذ رقم العداد</string>
+    <string name="CostmerName">اسم المشترك</string>
+    <string name="GetStarted">بدا الاستخدام</string>
+
+    <string name="openCammer">فتح الكامرا</string>
+    <string name="getNumber">معرفة الرقم</string>
+    <string name="MeterRead">ادخل قراءة العداد</string>
+    <string name="Home">الرائسية</string>
+    <string name="Search">بحث</string>
+    <string name="Profil">الملف الشخصي</string>
+    <string name="Setting">الاعدادات</string>
+
+
+
+
+</resources>

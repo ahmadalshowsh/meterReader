@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/miHome"
+        android:title="@string/Home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/miSearch"
+        android:title="@string/Search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search" />
+
+    <!--    <item android:id="@+id/Placehoder"-->
+    <!--        android:enabled="false"-->
+    <!--        app:showAsAction="ifRoom"-->
+    <!--        android:title="" />-->
+
+    <item android:id="@+id/miProfile"
+        app:showAsAction="ifRoom"
+        android:title="@string/Profil"
+        android:icon="@drawable/ic_person" />
+
+    <item android:id="@+id/miSettings"
+        app:showAsAction="ifRoom"
+        android:title="@string/Setting"
+        android:icon="@drawable/ic_settings" />
+</menu>

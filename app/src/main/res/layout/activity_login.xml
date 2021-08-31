@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintHorizontal_bias=".5"
+        android:background="@drawable/edit_text_frgrment"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="12dp"
+        android:hint="@string/hintName"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/hintPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:background="@drawable/edit_text_frgrment"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Name"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menuback"
+        android:text="@string/btnLogin"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintWidth_percent=".8">
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hintForgetPassword"
+        app:layout_constraintHorizontal_bias="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        app:layout_constraintVertical_bias="0">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

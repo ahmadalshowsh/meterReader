@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "259410601879",
+    "project_id": "as-project-a44af",
+    "storage_bucket": "as-project-a44af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259410601879:android:9742f9b2a0e7fc794d86d2",
+        "android_client_info": {
+          "package_name": "com.example.asapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259410601879-rb062jo5e2s7jnvn8u9fck6d5gv0f5l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBChCCX8QF7KGWML3ctY1sCZlxttmsjGAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259410601879-rb062jo5e2s7jnvn8u9fck6d5gv0f5l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259410601879:android:193e410af0907b244d86d2",
+        "android_client_info": {
+          "package_name": "com.example.meterreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259410601879-rb062jo5e2s7jnvn8u9fck6d5gv0f5l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBChCCX8QF7KGWML3ctY1sCZlxttmsjGAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259410601879-rb062jo5e2s7jnvn8u9fck6d5gv0f5l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

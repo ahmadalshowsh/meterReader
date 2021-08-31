@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MeterReader</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnLogout">Logout</string>
+    <string name="hintName">Name</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintForgetPassword">Forget password</string>
+    <string name="btnNext">Next</string>
+    <string name="btnSave">Save</string>
+    <string name="btnCancel">Cancel</string>
+
+    <string name="skip">Skip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">hi</string>
+    <string name="meterNo">Meter No</string>
+    <string name="getmeterNo">Get MeterNo</string>
+    <string name="CostmerName">Costmer Name</string>
+    <string name="GetStarted">Get Started</string>
+    <string name="openCammer">open Cammer</string>
+    <string name="getNumber">get Number</string>
+    <string name="MeterRead">Meter Read</string>
+    <string name="Home">Home</string>
+    <string name="Search">Search</string>
+    <string name="Profil">Profil</string>
+    <string name="Setting">Setting</string>
+
+
+
+
+
+
+</resources>
